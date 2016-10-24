@@ -1,11 +1,14 @@
 {
   "name": "react-for-smple-echarts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react smiple-echarts",
   "main": "echarts-for-react.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+   "react-for-smple-echarts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fin-fe/react-for-smple-echarts.git"
@@ -14,6 +17,9 @@
     "url": "https://github.com/fin-fe/react-for-smple-echarts/issues"
   },
   "dependencies": {
+    "element-resize-event": "^2.0.5"
+  },
+  "devDependencies":{
     "element-resize-event": "^2.0.5"
   },
   "author": "",
