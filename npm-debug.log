@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'd:\\vue-demo\\react-for-smiple-echarts',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\dongyang03\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 verbose tar pack [ 'C:\\Users\\dongyang03\\AppData\\Roaming\\npm-cache\\react-for-smple-echarts\\1.0.0\\package.tgz',
+10 verbose tar pack   'd:\\vue-demo\\react-for-smiple-echarts' ]
+11 verbose tarball C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package.tgz
+12 verbose folder d:\vue-demo\react-for-smiple-echarts
+13 info prepublish react-for-smple-echarts@1.0.0
+14 verbose addLocalTarball adding from inside cache C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package.tgz
+15 verbose correctMkdir C:\Users\dongyang03\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+16 silly cache afterAdd react-for-smple-echarts@1.0.0
+17 verbose afterAdd C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package\package.json not in flight; writing
+18 verbose correctMkdir C:\Users\dongyang03\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose afterAdd C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package\package.json written
+20 silly publish { name: 'react-for-smple-echarts',
+20 silly publish   version: '1.0.0',
+20 silly publish   description: 'react smiple-echarts',
+20 silly publish   main: 'echarts-for-react.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+https://github.com/fin-fe/react-for-smple-echarts.git' },
+20 silly publish   dependencies: { 'element-resize-event': '^2.0.5' },
+20 silly publish   author: '',
+20 silly publish   license: 'ISC',
+20 silly publish   gitHead: 'c2dd1679f01f8d255366a824c17408826889da86',
+20 silly publish   bugs: { url: 'https://github.com/fin-fe/react-for-smple-echarts/issues' },
+20 silly publish   readme: 'ERROR: No README data found!',
+20 silly publish   homepage: 'https://github.com/fin-fe/react-for-smple-echarts#readme',
+20 silly publish   _id: 'react-for-smple-echarts@1.0.0',
+20 silly publish   _shasum: '83e942045b0ecf6f86b18f40f7f5460335eb4973',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name react-for-smple-echarts
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'react-for-smple-echarts',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'react-for-smple-echarts',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/react-for-smple-echarts
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading C:\Users\dongyang03\AppData\Roaming\npm-cache\react-for-smple-echarts\1.0.0\package.tgz
+29 verbose request uri https://registry.npmjs.org/react-for-smple-echarts
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 15:18:28
+32 verbose request using bearer token for auth
+33 verbose request id 1ef7a0dba503074e
+34 http request PUT https://registry.npmjs.org/react-for-smple-echarts
+35 http 403 https://registry.npmjs.org/react-for-smple-echarts
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '95',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Mon, 24 Oct 2016 07:18:18 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1477293496.282068,VS0,VE2292',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 verbose request invalidating C:\Users\dongyang03\AppData\Roaming\npm-cache\registry.npmjs.org\react-for-smple-echarts on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : react-for-smple-echarts
+39 verbose stack     at makeError (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+39 verbose stack     at Request._callback (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+39 verbose stack     at Request.self.callback (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+39 verbose stack     at emitTwo (events.js:87:13)
+39 verbose stack     at Request.emit (events.js:172:7)
+39 verbose stack     at Request.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+39 verbose stack     at emitOne (events.js:82:20)
+39 verbose stack     at Request.emit (events.js:169:7)
+39 verbose stack     at IncomingMessage.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+40 verbose statusCode 403
+41 verbose pkgid react-for-smple-echarts
+42 verbose cwd d:\vue-demo\react-for-smiple-echarts
+43 error Windows_NT 6.1.7601
+44 error argv "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error node v4.5.0
+46 error npm  v2.15.9
+47 error code E403
+48 error "You cannot publish over the previously published version 1.0.0." : react-for-smple-echarts
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
