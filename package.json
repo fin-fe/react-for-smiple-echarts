@@ -1,0 +1,14 @@
+{
+  "name": "react-for-smple-echarts",
+  "version": "1.0.0",
+  "description": "react smiple-echarts",
+  "main": "echarts-for-react.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "element-resize-event": "^2.0.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
