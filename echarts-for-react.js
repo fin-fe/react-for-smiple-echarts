@@ -1,6 +1,6 @@
 'use strict';
 
-var _echarts = require('echarts.simple.min');
+var _echarts = require('./echarts.simple.min');
 
 var _echarts2 = _interopRequireDefault(_echarts);
 
