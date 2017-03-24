@@ -1,6 +1,6 @@
 {
   "name": "react-for-smiple-echarts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react smiple-echarts",
   "main": "echarts-for-react.js",
   "scripts": {
